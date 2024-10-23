@@ -3,11 +3,14 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "start": "node index.js",
-        "install": "npm install"
+        "postinstall": "cd frontend && npm install --no-package-lock && npm run build",
+        "start": "node backend/server.js"
     },
     "engines": {
         "node": "20.x",
-        "npm": "please-use-npm"
+        "npm": "10.x"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5"
     }
 }
