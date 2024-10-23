@@ -1,0 +1,13 @@
+{
+    "name": "wakey-ai-toolbox",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node index.js",
+        "install": "npm install"
+    },
+    "engines": {
+        "node": "20.x",
+        "npm": "please-use-npm"
+    }
+}
